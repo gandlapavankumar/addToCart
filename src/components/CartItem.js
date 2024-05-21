@@ -12,7 +12,7 @@ export const CartItem = ({id, quantity}) => {
     <Stack direction='horizontal' gap={2} className='d-flex align-items-center'>
         <img 
         src={item.url} 
-        style={{width: "125px" , height: "75px" , objectFit:"cover"}}/>
+        style={{width: "125px" , height: "75px" , objectFit:"cover"}} alt='hi'/>
         <div className='me-auto'>
         <div>
             {item.name}{" "}
