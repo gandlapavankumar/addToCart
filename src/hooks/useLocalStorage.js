@@ -1,3 +1,4 @@
+ // eslint-disable-next-line
 import React, { useEffect, useState } from 'react'
 
 export function useLocalStorage(key, initialValue)  {
